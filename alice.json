@@ -1,6 +1,6 @@
 {
-  "name": "alice",
-  "prefix": "/",
+  "name": "Riaome",
+  "prefix": "×",
   "language": "english",
   "timezone": "Asia/Manila",
   "font": 11,
@@ -9,5 +9,5 @@
   "admin": [
     "100050635086635"
   ],
-  "developer": "leiamnash"
+  "developer": "Kyle"
 }
