@@ -17,7 +17,7 @@ for (var leiam of alice.admin) {
     attachment: fs.createReadStream(path.join(__dirname, "..", `assets/add/leiamnash${Math.floor(Math.random() * 5)}.png`))
   }, event.threadID, (err) => {
     if (err) return bot.chat(`🔴🟡🟢successfully connected\n\nprefix: ${alice.prefix}\nbotname: ${alice.name}\nowner: ${leiamC}\n\nplease use ⟨ ${alice.prefix}help ⟩ to view the commands`, event.threadID);
-    bot.changeNickname(`𝗕𝗢𝗧 ${alice.name}【 ${alice.prefix} 】`, event.threadID, bot.getCurrentUserID());
+    bot.changeNickname(`⧽ ${alice.prefix} ⧼ ✧ ${alice.name} 𝗕𝗢𝗧`, event.threadID, bot.getCurrentUserID());
    });
   } else {
  const leiamY = []
